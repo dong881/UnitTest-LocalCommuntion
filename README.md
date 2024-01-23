@@ -6,17 +6,20 @@ This repository contains projects related to local communication testing, includ
 
 ```
 .
-├── .vscode                 # Visual Studio Code configuration files
+├── .vscode                           # Visual Studio Code configuration files
 ├── HTTP
-│   ├── ESP-AsyncWebServer  # HTTP server using ESP AsyncWebServer library
-│   │   ├── .vscode         # Visual Studio Code configuration files
-│   │   └── simple_server   # Simple server project
-│   ├── ESP32-client        # HTTP client for ESP32
-│   └── ESP32-wifi          # Wi-Fi related project for ESP32
-│       ├── .vscode         # Visual Studio Code configuration files
-│       └── main            # Main Wi-Fi project
+│   ├── ESP-AsyncWebServer
+│   │   ├── .vscode                   # Visual Studio Code configuration files
+│   │   └── simple_server             # Simple server project
+│   ├── ESP32-client                  # HTTP client for ESP32
+│   └── ESP32-wifi
+│       ├── .vscode                   # Visual Studio Code configuration files
+│       └── main                      # Main Wi-Fi project
+├── MQTT
+│   └── ESP32-MQTT-client             # MQTT client project for ESP32
 └── Socket-UDP
-    └── ESP32-socket-UDP-client  # UDP client project for ESP32
+    └── ESP32-socket-UDP-client       # UDP client project for ESP32
+
 ```
 
 ## Project Descriptions
@@ -31,6 +34,12 @@ This repository contains projects related to local communication testing, includ
 
 ### Socket-UDP
 - **ESP32-socket-UDP-client:** UDP client project for ESP32.
+
+### MQTT
+- Install on server
+```
+pip install paho-mqtt
+```
 
 ## Usage
 
